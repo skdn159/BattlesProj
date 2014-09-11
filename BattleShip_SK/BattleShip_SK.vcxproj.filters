@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="헤더 파일">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Ships">
+      <UniqueIdentifier>{63a4ec7c-8d68-41b7-9f83-98ddfad46df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objecsts">
+      <UniqueIdentifier>{257d5285-4283-4914-beb7-4b7686d801a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{75475360-be15-48f7-9e8a-0eb12e22d1cd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -19,18 +20,91 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>Main</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="AirCraft.h">
+      <Filter>Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Destroyer.h">
+      <Filter>Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Cruiser.h">
+      <Filter>Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShip.h">
+      <Filter>Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="zido.h">
+      <Filter>Game Objecsts</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Objecsts</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Game Objecsts</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawSetting.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Game Objecsts</Filter>
+    </ClInclude>
+    <ClInclude Include="A_I.h">
+      <Filter>Game Objecsts</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Main</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="BattleShip_SK.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Destroyer.cpp">
+      <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Cruiser.cpp">
+      <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShip.cpp">
+      <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="zido.cpp">
+      <Filter>Game Objecsts</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Objecsts</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="AirCraft.cpp">
+      <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Game Objecsts</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawSetting.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Game Objecsts</Filter>
+    </ClCompile>
+    <ClCompile Include="A_I.cpp">
+      <Filter>Game Objecsts</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
