@@ -4,31 +4,26 @@
 #include "player.h"
 #include "zido.h"
 #include "GameManager.h"
-//#include "Human.h"
 #include "Draw.h"
 
-
+#define ToPlay 10000
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	system("mode con cols=150 lines=40");
+	float AvgResult;
+
+	system("mode con cols=140 lines=35");
 	system("title BattleShip");
-	//Human Human;
-	//Human.HumanSetupShips();
+		
+	GameManager GM;
+	GM.StartGame(ToPlay);
+	AvgResult= GM.GetAVG_TurnCount(ToPlay);
+	std::cout << "게임의 총 턴수 = " << AvgResult << std::endl;
+
+	//GM.Networking();
 	
-	//GameManager GM;
-	//GM.StartGame();
-
-	Draw_Zido(MY_ZIDO_X,MY_ZIDO_Y);
-
-	
-
-
-
-	//fflush(stdin);
 	getchar();
-
-
+	
 	return 0;
 }
 

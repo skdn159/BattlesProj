@@ -1,9 +1,5 @@
 #pragma once
 #include "stdafx.h"
-//#include "Enums.h"
-
-
-
 
 enum Colors
 {
@@ -27,15 +23,12 @@ enum Colors
 
 enum DrawLocation
 {
-	MY_ZIDO_X =20,
-	MY_ZIDO_Y =10,
-	ENEMY_ZIDO_X =60,
-	ENEMY_ZIDO_Y =10,
+	MY_ZIDO_X =30,
+	MY_ZIDO_Y =7,
+	ENEMY_ZIDO_X =85,
+	ENEMY_ZIDO_Y =7,
 	
 };
-
-
-
 
 void Setcolor(int color, int bgcolor);
 void Gotoxy(int x, int y);

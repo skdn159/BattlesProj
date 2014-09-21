@@ -7,7 +7,7 @@ public:
 	AirCraft();
 	~AirCraft();
 
-	HitResult HitCheck(Position hitpos);
+	virtual HitResult Hitcheck(Position hitpos);
 
 };
 

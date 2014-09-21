@@ -5,7 +5,6 @@
 AirCraft::AirCraft()
 {
 	m_Name = "AirCraft";
-	//m_Length = 5;
 	m_Type = AIRCRAFT;
 	m_MapMark_ShipType = 5;
 	m_Hp = 5;
@@ -16,7 +15,7 @@ AirCraft::~AirCraft()
 {
 }
 
-HitResult AirCraft::HitCheck(Position hitpos)
+HitResult AirCraft::Hitcheck(Position hitpos)
 {
 	HitResult hitResult = Ship::Hitcheck(hitpos);
 

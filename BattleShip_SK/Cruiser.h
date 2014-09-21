@@ -7,6 +7,6 @@ public:
 	Cruiser();
 	~Cruiser();
 
-	HitResult HitCheck(Position hitpos);
+	virtual HitResult Hitcheck(Position hitpos);
 };
 

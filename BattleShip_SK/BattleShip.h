@@ -7,6 +7,6 @@ public:
 	BattleShip();
 	~BattleShip();
 
-	HitResult HitCheck(Position hitpos);
+	virtual HitResult Hitcheck(Position hitpos);
 };
 

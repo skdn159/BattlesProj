@@ -53,12 +53,6 @@
     <ClInclude Include="DrawSetting.h">
       <Filter>Main</Filter>
     </ClInclude>
-    <ClInclude Include="Human.h">
-      <Filter>Game Objecsts</Filter>
-    </ClInclude>
-    <ClInclude Include="A_I.h">
-      <Filter>Game Objecsts</Filter>
-    </ClInclude>
     <ClInclude Include="Draw.h">
       <Filter>Main</Filter>
     </ClInclude>
@@ -99,12 +93,6 @@
     </ClCompile>
     <ClCompile Include="Draw.cpp">
       <Filter>Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Human.cpp">
-      <Filter>Game Objecsts</Filter>
-    </ClCompile>
-    <ClCompile Include="A_I.cpp">
-      <Filter>Game Objecsts</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

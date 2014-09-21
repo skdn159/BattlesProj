@@ -6,7 +6,7 @@ enum PlaceDirection
 
 };
 
-enum ShipType
+enum ShipType_MY
 {
 	COMMON = 0,
 	DESTROYER = 2,
@@ -16,17 +16,19 @@ enum ShipType
 };
 
 enum HitResult
-{
+{	
+	RES_NONE,
 	MISS,
 	HIT,
 	DESTROY,
+
 	DESTROY_DESTROYER,
 	DESTROY_CRUISER,
 	DESTROY_BATTLESHIP,
 	DESTROY_AIRCRAFT,
 };
 
-enum Direction
+enum Direction_MY
 {
 	UP,
 	DOWN,
@@ -52,4 +54,17 @@ enum Winner
  WINNER_ATTACKER,
  WINNER_DEFENDER,
 
+};
+
+enum AImode
+{
+	SEARCH_MODE,
+	TARGET_MODE,
+};
+
+enum MarkHitResult
+{
+	MARK_MISS,
+	MARK_HIT,
+	MARK_DESTROY,
 };

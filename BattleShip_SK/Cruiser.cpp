@@ -4,7 +4,6 @@
 
 Cruiser::Cruiser()
 {
-	//m_Length = 3;
 	m_Name = "Cruiser";
 	m_Type = CRUISER;
 	m_MapMark_ShipType = 3;
@@ -17,7 +16,7 @@ Cruiser::~Cruiser()
 {
 }
 
-HitResult Cruiser::HitCheck(Position hitpos)
+HitResult Cruiser::Hitcheck(Position hitpos)
 {
 	HitResult hitResult = Ship::Hitcheck(hitpos);
 

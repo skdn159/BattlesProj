@@ -80,7 +80,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AirCraft.h" />
-    <ClInclude Include="A_I.h" />
     <ClInclude Include="BattleShip.h" />
     <ClInclude Include="Cruiser.h" />
     <ClInclude Include="Destroyer.h" />
@@ -89,7 +88,6 @@
     <ClInclude Include="GameManager.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="Human.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="stdafx.h" />
@@ -99,7 +97,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AirCraft.cpp" />
-    <ClCompile Include="A_I.cpp" />
     <ClCompile Include="BattleShip.cpp" />
     <ClCompile Include="BattleShip_SK.cpp" />
     <ClCompile Include="Cruiser.cpp" />
@@ -109,7 +106,6 @@
     <ClCompile Include="GameManager.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Human.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="stdafx.cpp">

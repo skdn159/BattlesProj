@@ -15,14 +15,16 @@ public:
 	void SetZidoName(std::string name) { m_Name = name; }
 	std::string GetZidoName(){ return m_Name; }
 	int GetMapLength() {return m_width; }
-	bool ShipOverlapCheck(int x,  int y); // x, y ÁÂÇ¥/ ¹úÆ¼Ä® È£¸®Á¸Å» / 
+
+	bool ShipOverlapCheck(int x,  int y); 
 	bool AttackValidCheck(int x, int y);
 	
 	void ShowZido();
 	void MarkShipPosition(int x, int y, int shipMarkType);
-	void PrintZido(POINT location);
+	void PrintZido(int Location_x, int Location_y);
 	void ZidoMarkByGM(Position pos);
-	void MarkEnemyZido(int x, int y);
+	void MarkMiss_EnemyZido(int x, int y);
+	void MarkHit_EnemyZido(int x, int y);
 		
 
 private:

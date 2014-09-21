@@ -2,19 +2,28 @@
 // 표준 시스템 포함 파일 및 프로젝트 관련 포함 파일이
 // 들어 있는 포함 파일입니다.
 //
-
 #pragma once
+#pragma comment(lib, "BGNL_debug.lib")
+#pragma comment(lib, "BGNL.lib")
+
 
 #include "targetver.h"
 
 #include <stdio.h>
 #include <tchar.h>
-#include<iostream>
-#include<ostream>
+#include <iostream>
+#include "Network.h"	
+#include <ostream>
 #include <time.h>
-#include<string> 
+#include <string> 
 #include <windows.h>
 #include <winnt.h>
+#include "ShipData.h"
+#include "PacketType.h"
+#include <conio.h>
+
+
+
 
 
 

@@ -1,5 +1,5 @@
-﻿빌드 시작: 2014-08-02 오후 3:54:44
-     1>2 노드의 "C:\BattleShip_project\BattleShip_SK\BattleShip_pp\BattleShip_pp.vcxproj" 프로젝트(Build 대상)입니다.
+﻿빌드 시작: 2014-09-17 오후 1:23:40
+     1>3 노드의 "C:\BattleShip_project\BattleShip_SK\BattleShip_pp\BattleShip_pp.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\BattleShip_pp.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
@@ -11,23 +11,13 @@
          Destroyer.cpp
          Cruiser.cpp
          BattleShip_pp.cpp
+     1>c:\battleship_project\battleship_sk\battleship_pp\battleship_pp.cpp(16): error C2061: 구문 오류 : 식별자 '_TCHAR'
          BattleShip.cpp
          AirCraft.cpp
          코드를 생성하고 있습니다...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\BattleShip_project\BattleShip_SK\Debug\BattleShip_pp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\BattleShip_project\BattleShip_SK\Debug\BattleShip_pp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\BattleShip_project\BattleShip_SK\Debug\BattleShip_pp.lib" /MACHINE:X86 Debug\AirCraft.obj
-         Debug\BattleShip.obj
-         Debug\BattleShip_pp.obj
-         Debug\Cruiser.obj
-         Debug\Destroyer.obj
-         Debug\GameManager.obj
-         Debug\Map.obj
-         Debug\Player.obj
-         Debug\Ship.obj
-         Debug\stdafx.obj
-         BattleShip_pp.vcxproj -> C:\BattleShip_project\BattleShip_SK\Debug\BattleShip_pp.exe
-     1>"C:\BattleShip_project\BattleShip_SK\BattleShip_pp\BattleShip_pp.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+     1>c:\battleship_project\battleship_sk\battleship_pp\ship.cpp(28): error C4716: 'Ship::HitCheck' : 값을 반환해야 합니다.
+     1>"C:\BattleShip_project\BattleShip_SK\BattleShip_pp\BattleShip_pp.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
 
-빌드했습니다.
+빌드하지 못했습니다.
 
-경과 시간: 00:00:07.25
+경과 시간: 00:00:03.13

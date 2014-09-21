@@ -7,6 +7,6 @@ public:
 	Destroyer();
 	~Destroyer();
 
-	HitResult HitCheck(Position hitpos);
+	virtual HitResult Hitcheck(Position hitpos);
 };
 
